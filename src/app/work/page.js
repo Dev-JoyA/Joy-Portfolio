@@ -16,7 +16,7 @@ export default function Work() {
       <section className="flex flex-col justify-center items-start px-10 py-20 space-y-10">
         <h1 className="text-3xl font-bold mb-6">My Work</h1>
         <p className="text-gray-400 text-sm max-w-2xl mb-10">
-          Here are some of the projects I've worked on, showcasing my skills in web development and backend solutions. Each project demonstrates my ability to create functional and user-friendly applications using a range of technologies.
+          Here are some of the projects I have worked on, showcasing my skills in web development and backend solutions. Each project demonstrates my ability to create functional and user-friendly applications using a range of technologies.
         </p>
         
         {/* Projects Section */}

@@ -8,5 +8,8 @@ module.exports = {
   theme: {
     extend: {},
   },
+  rules: {
+    'react/no-unescaped-entities': 'off',
+  },
   plugins: [],
 };

@@ -20,7 +20,7 @@ export default function Experience() {
         <div className="border-b border-gray-700 pb-4 mb-4">
           <h2 className="text-2xl font-semibold">Intern</h2>
           <h3 className="text-xl text-teal-400">Asseco Nigeria</h3>
-          <p className="text-gray-400">May '24 — Present</p>
+          <p className="text-gray-400">May 2024 — Present</p>
           <p className="text-gray-300 mt-2">
             • Collaborated with cross-functional teams to design, develop, and test dynamic web applications using Java and React.<br />
             • Contributed to both front-end and back-end development, ensuring seamless integration and functionality through clean, efficient, and well-documented code.<br />
@@ -32,7 +32,7 @@ export default function Experience() {
         <div className="border-b border-gray-700 pb-4 mb-4">
           <h2 className="text-2xl font-semibold">Software Engineer</h2>
           <h3 className="text-xl text-teal-400">Decagon Institute</h3>
-          <p className="text-gray-400">Oct '23 — Present</p>
+          <p className="text-gray-400">Oct 2023 — Present</p>
           <p className="text-gray-300 mt-2">
             • Contribute to the collaborative team environment as a Junior Software Developer.<br />
             • Play a key role in the design and maintenance of software applications.<br />
@@ -49,7 +49,7 @@ export default function Experience() {
         <div className="border-b border-gray-700 pb-4 mb-4">
           <h2 className="text-2xl font-semibold">Front-End Developer</h2>
           <h3 className="text-xl text-teal-400">Freelance</h3>
-          <p className="text-gray-400">Sep '22 — Sep '23</p>
+          <p className="text-gray-400">Sep 2022 — Sep 2023</p>
           <p className="text-gray-300 mt-2">
             • Developed and maintained user-facing websites using HTML, CSS, JavaScript, and ReactJS.<br />
             • Created UI components with reusable code for a better user experience.<br />

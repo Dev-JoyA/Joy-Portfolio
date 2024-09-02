@@ -44,7 +44,7 @@ export default function Home() {
           I build things for the web.
         </h2>
         <p className="text-gray-400 max-w-2xl">
-          I am a software engineer specializing in building and occasionally designing exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products at a leading tech company.
+          I am a software engineer specializing in building and occasionally designing exceptional digital experiences. Currently, I am focused on building accessible, human-centered products at a leading tech company.
         </p>
         <Link href="/work" className="border border-teal-400 text-teal-400 px-6 py-3 rounded hover:bg-teal-400 hover:text-gray-900">
           Check out my projects!
