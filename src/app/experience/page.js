@@ -9,7 +9,7 @@ export default function Experience() {
           <li><Link href="/" className="text-teal-400">Home</Link></li>
           <li><Link href="/experience" className="text-teal-400">Experience</Link></li>
           <li><Link href="/work" className="text-teal-400">Work</Link></li>
-          <li><Link href="/about" className="text-teal-400">About</Link></li>
+          <li><Link href="/about2" className="text-teal-400">About</Link></li>
           <li><Link href="/contact" className="text-teal-400">Contact</Link></li>
         </ul>
       </nav>

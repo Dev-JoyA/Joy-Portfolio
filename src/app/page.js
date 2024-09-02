@@ -14,7 +14,7 @@ export default function Home() {
         <div className="text-teal-400 font-bold text-2xl">Dev-Joy</div>
         <ul className="flex space-x-6">
           <li>
-            <Link href="/about" className="text-teal-400">
+            <Link href="/about2" className="text-teal-400">
               01. About
             </Link>
           </li>
