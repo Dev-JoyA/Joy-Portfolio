@@ -18,7 +18,7 @@ export default function Experience() {
         
         {/* Experience Item 1 */}
         <div className="border-b border-gray-700 pb-4 mb-4">
-          <h2 className="text-2xl font-semibold">Software Deceloper</h2>
+          <h2 className="text-2xl font-semibold">Software Developer</h2>
           <h3 className="text-xl text-teal-400">Axendit Ltd</h3>
           <p className="text-gray-400">May 2024 — Present</p>
           <p className="text-gray-300 mt-2">
