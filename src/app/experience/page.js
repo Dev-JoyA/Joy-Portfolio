@@ -18,8 +18,8 @@ export default function Experience() {
         
         {/* Experience Item 1 */}
         <div className="border-b border-gray-700 pb-4 mb-4">
-          <h2 className="text-2xl font-semibold">Intern</h2>
-          <h3 className="text-xl text-teal-400">Asseco Nigeria</h3>
+          <h2 className="text-2xl font-semibold">Software Deceloper</h2>
+          <h3 className="text-xl text-teal-400">Axendit Ltd</h3>
           <p className="text-gray-400">May 2024 — Present</p>
           <p className="text-gray-300 mt-2">
             • Collaborated with cross-functional teams to design, develop, and test dynamic web applications using Java and React.<br />
