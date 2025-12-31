@@ -40,7 +40,7 @@ export default function Work() {
             <div className="border-b border-gray-700 pb-4 mb-6 transition-transform transform hover:scale-105 hover:bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl">
                 <h2 className="text-xl font-semibold mb-2">NCAA RPAS</h2>
                 <p className="text-gray-400 text-sm mb-4">
-                    A website for registering and managing Remotely Piloted Aircraft (RPA)/Unmanned Aerial Vehicles (UAV) with the Nigerian Civil Aviation Authority. Users can register their RPA/UAV, stay updated with regulations, and ensure compliance.
+                A website for registering and managing Remotely Piloted Aircraft (RPA)/Unmanned Aerial Vehicles (UAV) with the Nigerian Civil Aviation Authority. Users can register their RPA/UAV, stay updated with regulations, and ensure compliance.
                 </p>
                 <p className="text-gray-400 text-sm mb-4">
                     Technologies Used: Java, Spring Boot<br />
