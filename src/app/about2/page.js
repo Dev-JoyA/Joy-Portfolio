@@ -15,8 +15,10 @@ export default function About() {
       <section className="flex flex-col justify-center items-start px-10 py-20 space-y-6">
         <h1 className="text-4xl font-bold">About Me</h1>
         <p className="text-gray-400 max-w-2xl">
-         My name is Joy Aruku, a full-stack web developer passionate about building high-quality, accessible web applications. With a background in both frontend and backend technologies, I create seamless digital experiences. I am enthusiastic about leveraging my diverse skill set and experiences to tackle new challenges and contribute to innovative projects.
+            My name is Joy Aruku, a Backend web2 and Web3 developer passionate about building high-quality, accessible web applications and decentralized solutions. 
+            I specialize in smart contract development, dApps, and distributed ledger systems. I have participated in various hackathons and open-source programs, contributing to innovative projects across Web3 and blockchain ecosystems.
         </p>
+
 
         {/* Skills Section */}
         <div className="border-t border-gray-700 pt-6 mt-6">
@@ -25,6 +27,7 @@ export default function About() {
             <div>
               <h3 className="text-xl font-semibold">Programming Languages</h3>
               <ul className="list-disc list-inside text-gray-400">
+                <li>Solidity</li>
                 <li>JavaScript</li>
                 <li>TypeScript</li>
                 <li>Java</li>
@@ -33,6 +36,7 @@ export default function About() {
             <div>
               <h3 className="text-xl font-semibold">Web Development</h3>
               <ul className="list-disc list-inside text-gray-400">
+                <li>Hardhat</li>
                 <li>React</li>
                 <li>Node.js</li>
                 <li>Express.js</li>
@@ -70,6 +74,51 @@ export default function About() {
             </div>
           </div>
         </div>
+        <div className="border-t border-gray-700 pt-6 mt-6">
+                <h2 className="text-3xl font-bold mb-4">Web3 & Hackathons</h2>
+                <p className="text-gray-400 max-w-2xl mb-4">
+                    Actively building decentralized applications and smart contracts on Ethereum, Hashgraph, and other blockchain platforms. 
+                    Participated in multiple hackathons and open-source initiatives, focusing on innovative solutions for Web3 adoption.
+                </p>
+                <ul className="list-disc list-inside text-gray-400">
+                    <li>Smart contract development using Solidity and Hardhat</li>
+                    <li>Decentralized application (dApp) development with Typescript and express.js</li>
+                    <li>Hackathon participant</li>
+                </ul>
+            </div>
+            {/* Open Source Contributions Section */}
+            <div className="border-t border-gray-700 pt-6 mt-6">
+                <h2 className="text-3xl font-bold mb-4">Open Source Contributions</h2>
+                <p className="text-gray-400 max-w-2xl mb-4">
+                    Actively contributing to open-source projects
+                </p>
+                <ul className="list-disc list-inside text-gray-400 space-y-3">
+                    <li>
+                    <strong>Creative Commons (ccos-website & legaldb)</strong> – Implemented new website designs, improved front-end usability, and contributed bug fixes and enhancements across multiple repositories.  
+                    <br />
+                    Links: 
+                    <a href="https://github.com/creativecommons/ccos-website-source/pull/834" target="_blank" className="text-teal-400">PR #834</a>, 
+                    <a href="https://github.com/creativecommons/ccos-website-source/pull/822" target="_blank" className="text-teal-400">PR #822</a>, 
+                    <a href="https://github.com/creativecommons/legaldb/pull/222" target="_blank" className="text-teal-400">PR #222</a>
+                    </li>
+                    <li>
+                    <strong>MediaWiki – PendingChangesBot-ng</strong> – Built front-end integration for decentralized applications and improved automation workflows.  
+                    <br />
+                    Links: 
+                    <a href="https://github.com/Wikimedia-Suomi/PendingChangesBot-ng/pull/59" target="_blank" className="text-teal-400">PR #59</a>, 
+                    <a href="https://github.com/Wikimedia-Suomi/PendingChangesBot-ng/issues/105" target="_blank" className="text-teal-400">Issue #105</a>
+                    </li>
+                    <li>
+                    <strong>Yocaml</strong> – Created a blog using OCaml, contributed in the documentation, and implemented bug fixes for distributed ledger integration.  
+                    <br />
+                    Links: 
+                    <a href="https://github.com/Dev-JoyA/yocaml_blog" target="_blank" className="text-teal-400">Blog Repo</a>, 
+                    <a href="https://github.com/xhtmlboi/yocaml/pull/101" target="_blank" className="text-teal-400">PR #101</a>, 
+                    <a href="https://github.com/xhtmlboi/yocaml/pull/106" target="_blank" className="text-teal-400">PR #106</a>
+                    </li>
+                </ul>
+            </div>
+
       </section>
     </div>
   );

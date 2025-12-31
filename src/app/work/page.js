@@ -21,6 +21,35 @@ export default function Work() {
         
         {/* Projects Section */}
         <div className="space-y-6">
+            {/* Pick-n-Get Frontend */}
+            <div className="border-b border-gray-700 pb-4 mb-6 transition-transform transform hover:scale-105 hover:bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl">
+            <h2 className="text-xl font-semibold mb-2">Pick-n-Get</h2>
+            <p className="text-gray-400 text-sm mb-4">
+            A website that rewards users for proper waste disposal. The platform is built on-chain to ensure transparency and security.
+            </p>
+            <p className="text-gray-400 text-sm mb-4">
+            Technologies Used: Solidity, Next.js, TypeScript<br />
+            Role: Solidity and Web2 Developer responsible for smart contract security, payment integration, API development, and other key functionalities.
+            </p>
+            <a href="https://pick-n-get-fe.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:text-teal-300 text-sm">
+                View Live <FaExternalLinkAlt className="inline" />
+            </a>
+            </div>
+
+            {/* NCAA RPAS */}
+            <div className="border-b border-gray-700 pb-4 mb-6 transition-transform transform hover:scale-105 hover:bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl">
+                <h2 className="text-xl font-semibold mb-2">NCAA RPAS</h2>
+                <p className="text-gray-400 text-sm mb-4">
+                    A website for registering and managing Remotely Piloted Aircraft (RPA)/Unmanned Aerial Vehicles (UAV) with the Nigerian Civil Aviation Authority. Users can register their RPA/UAV, stay updated with regulations, and ensure compliance.
+                </p>
+                <p className="text-gray-400 text-sm mb-4">
+                    Technologies Used: Java, Spring Boot<br />
+                    Role: Backend Developer worked collaboratively in a team, building APIs, managing database interactions, and ensuring secure and scalable backend functionality.
+                </p>
+                <a href="https://rpas.ncaa.gov.ng/" target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:text-teal-300 text-sm">
+                    View Live <FaExternalLinkAlt className="inline" />
+                </a>
+            </div>
           {/* Skool LMS Client */}
           <div className="border-b border-gray-700 pb-4 mb-6 transition-transform transform hover:scale-105 hover:bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl">
             <h2 className="text-xl font-semibold mb-2">Skool LMS Client</h2>
@@ -31,7 +60,7 @@ export default function Work() {
               Technologies Used: JavaScript, Express.js<br />
               Role: Team Member, contributed to developing features and functionality.
             </p>
-            <a href="https://skool-lms-client.onrender.com/" target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:text-teal-300 text-sm">View Live</a>
+            <a href="https://skool-lms-client.onrender.com/" target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:text-teal-300 text-sm">View Live <FaExternalLinkAlt className="inline" /></a>
           </div>
 
           {/* CleanHub */}
@@ -45,20 +74,7 @@ export default function Work() {
               Technologies Used: JavaScript, Express.js<br />
               Role: Team Member, contributed to various functionalities and integration.
             </p>
-            <a href="https://cleanhub-khzq.onrender.com/" target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:text-teal-300 text-sm">View Live</a>
-          </div>
-
-          {/* QR Code Generator for Staff */}
-          <div className="border-b border-gray-700 pb-4 mb-6 transition-transform transform hover:scale-105 hover:bg-gray-800 p-4 rounded-lg shadow-lg hover:shadow-xl">
-            <h2 className="text-xl font-semibold mb-2">QR Code Generator for Staff</h2>
-            <p className="text-gray-400 text-sm mb-4">
-              A comprehensive backend solution for generating QR codes for staff IDs. Built with Java and Spring Boot, this application allows for the creation and management of QR codes, which can be downloaded and used for staff identification.
-            </p>
-            <p className="text-gray-400 text-sm mb-4">
-              Technologies Used: Java, Spring Boot, Lombok, Jakarta Persistence<br />
-              Role: Sole Developer, responsible for the entire development and implementation of the QR code generation and management system.
-            </p>
-            <a href="http://176.58.117.18:9000/staff/list" target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:text-teal-300 text-sm">View Live</a>
+            <a href="https://cleanhub-khzq.onrender.com/" target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:text-teal-300 text-sm">View Live <FaExternalLinkAlt className="inline" /></a>
           </div>
 
           {/* Foodtruck Frontend */}
