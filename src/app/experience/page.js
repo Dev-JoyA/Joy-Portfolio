@@ -15,51 +15,52 @@ export default function Experience() {
       </nav>
       <section className="flex flex-col justify-center items-start px-10 py-20 space-y-6">
         <h1 className="text-4xl font-bold">Experience</h1>
-        
-        {/* Experience Item 1 */}
+
+        {/* Web3 Developer */}
         <div className="border-b border-gray-700 pb-4 mb-4">
-          <h2 className="text-2xl font-semibold">Software Developer</h2>
-          <h3 className="text-xl text-teal-400">Axendit Ltd</h3>
-          <p className="text-gray-400">May 2024 — Present</p>
-          <p className="text-gray-300 mt-2">
-            • Collaborated with cross-functional teams to design, develop, and test dynamic web applications using Java and React.<br />
-            • Contributed to both front-end and back-end development, ensuring seamless integration and functionality through clean, efficient, and well-documented code.<br />
-            • Troubleshot and resolved issues, participated in code reviews, and engaged in continuous learning to enhance technical skills and adapt to evolving project requirements.
-          </p>
+            <h2 className="text-2xl font-semibold">Web3 Developer (Smart Contracts & Distributed Ledger Systems)</h2>
+            <p className="text-gray-400">Jan 2025 — Present</p>
+            <ul className="list-disc list-inside text-gray-300 mt-2 space-y-2">
+            <li>Designed and implemented Smart Contracts in Solidity across Ethereum-compatible and distributed ledger environments, focusing on correctness, security, and gas efficiency.</li>
+            <li>Built and deployed contracts on multiple blockchain networks and testnets, adapting logic to chain-specific tooling and deployment workflows.</li>
+            <li>Participated in blockchain hackathons, collaborating with engineers to design decentralized solutions under time constraints.</li>
+            <li>Applied distributed ledger concepts such as immutability, consensus, and transaction finality when designing contract interactions.</li>
+            <li>Studied and implemented token standards and governance-related contracts, following industry best practices and secure design patterns.</li>
+            <li>Used modern smart contract development frameworks for compilation, testing, deployment, and verification.</li>
+            </ul>
         </div>
-        
-        {/* Experience Item 2 */}
+
+        {/* Axendit Software Developer */}
         <div className="border-b border-gray-700 pb-4 mb-4">
-          <h2 className="text-2xl font-semibold">Software Engineer</h2>
-          <h3 className="text-xl text-teal-400">Decagon Institute</h3>
-          <p className="text-gray-400">Oct 2023 — Present</p>
-          <p className="text-gray-300 mt-2">
-            • Contribute to the collaborative team environment as a Junior Software Developer.<br />
-            • Play a key role in the design and maintenance of software applications.<br />
-            • Write efficient and well-documented code to meet project requirements.<br />
-            • Collaborate closely with experienced developers to address technical challenges.<br />
-            • Apply a skillset and solid foundation in programming languages to contribute effectively.<br />
-            • Adapt to evolving priorities and actively participate in ongoing learning opportunities.<br />
-            • Embrace a dynamic environment, leveraging it for professional growth.<br />
-            • Demonstrate enthusiasm for gaining valuable experience in the field.
-          </p>
+            <h2 className="text-2xl font-semibold">Software Developer</h2>
+            <h3 className="text-xl text-teal-400">Axendit Ltd</h3>
+            <p className="text-gray-400">May 2024 — Present</p>
+            <ul className="list-disc list-inside text-gray-300 mt-2 space-y-2">
+            <li>Collaborated with cross-functional teams to design, develop, and test dynamic web applications using Java and React.</li>
+            <li>Contributed to both front-end and back-end development, ensuring seamless integration and functionality through clean, efficient, and well-documented code.</li>
+            <li>Worked single-handedly on the backend development for Axendit Academy, designing and maintaining scalable services for internal learning and certification workflows.</li>
+            <li>Joined a team to build NCAA RPAS (Nigerian Civil Aviation Authority Remotely Piloted Aircraft Systems) solutions, contributing to secure and compliant enterprise systems.</li>
+            <li>Developed SOAP APIs, improving communication between enterprise applications and reducing downtime by 20%.</li>
+            <li>Built a scalable backend for certificate verification using CRL analytics, cutting verification time by 50% and enhancing accuracy by 30%.</li>
+            </ul>
         </div>
-        
-        {/* Experience Item 3 */}
+
+        {/* Decagon Software Engineer */}
         <div className="border-b border-gray-700 pb-4 mb-4">
-          <h2 className="text-2xl font-semibold">Front-End Developer</h2>
-          <h3 className="text-xl text-teal-400">Freelance</h3>
-          <p className="text-gray-400">Sep 2022 — Sep 2023</p>
-          <p className="text-gray-300 mt-2">
-            • Developed and maintained user-facing websites using HTML, CSS, JavaScript, and ReactJS.<br />
-            • Created UI components with reusable code for a better user experience.<br />
-            • Learned new front-end programming languages and methodologies to perform tasks.<br />
-            • Applied best practices in coding standards, semantic markup, SEO optimization techniques.<br />
-            • Implemented responsive design principles to ensure cross-platform compatibility of webpages.<br />
-            • Wrote code using specific programming languages and tools.
-          </p>
+            <h2 className="text-2xl font-semibold">Software Engineer</h2>
+            <h3 className="text-xl text-teal-400">Decagon Institute</h3>
+            <p className="text-gray-400">Oct 2023 — Dec 2023</p>
+            <ul className="list-disc list-inside text-gray-300 mt-2 space-y-2">
+            <li>Contributed to a collaborative team environment as a Junior Software Developer.</li>
+            <li>Participated in the design and maintenance of software applications.</li>
+            <li>Wrote efficient, well-documented code to meet project requirements.</li>
+            <li>Collaborated with experienced developers to address technical challenges.</li>
+            <li>Applied programming skills effectively to contribute to team projects.</li>
+            <li>Adapted to evolving priorities and participated in ongoing learning opportunities.</li>
+            </ul>
         </div>
-      </section>
+        </section>
+
     </div>
   );
 }

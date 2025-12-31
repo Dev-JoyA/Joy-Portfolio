@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="bg-gray-900 text-white min-h-screen font-sans">
       <Head>
-        <title>Joy Aruku | Full Stack Developer</title>
+        <title>Joy Aruku | Web3 & web2 Developer</title>
         <meta name="description" content="Portfolio of Joy Aruku" />
       </Head>
 
@@ -44,7 +44,8 @@ export default function Home() {
           I build things for the web.
         </h2>
         <p className="text-gray-400 max-w-2xl">
-          I am a software engineer specializing in building and occasionally designing exceptional digital experiences. Currently, I am focused on building accessible, human-centered products at a leading tech company.
+            I am a software engineer and Web3 developer specializing in building exceptional digital experiences. 
+    I       have participated in various hackathons and open-source programs, focusing on smart contracts, decentralized applications, and distributed ledger systems.
         </p>
         <Link href="/work" className="border border-teal-400 text-teal-400 px-6 py-3 rounded hover:bg-teal-400 hover:text-gray-900">
           Check out my projects!
